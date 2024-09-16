@@ -26,7 +26,7 @@ user_prompt: |
 
 # Honeypot Ports
 ports:
-  - port: 8080
+  - port: 80
     protocol: HTTP
   - port: 8888
     protocol: HTTP
