@@ -9,4 +9,4 @@ if ! [ -f "config/cert/key.pem" ]; then
 	      -days 3650 \
 	      -subj '/C=AU/ST=Some-State/O=Internet Widgits Pty Ltd'
 fi
-exec ./galah
+exec ./galah -o log/galah.json -f config/cache/cache.db

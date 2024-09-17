@@ -1,5 +1,5 @@
 FROM golang:latest
-WORKDIR /galah
+WORKDIR /opt/galah
 RUN <<EOF
 apt update
 apt install openssl -y

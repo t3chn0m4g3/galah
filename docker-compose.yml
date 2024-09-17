@@ -17,5 +17,8 @@ services:
       # LLM_CLOUD_LOCATION: ""
       # LLM_CLOUD_PROJECT: ""
     volumes:
-      - ./config/config.yaml:/galah/config/config.yaml
-      - ./config/cert/:/galah/config/cert/
+      - ./config/cache/:/opt/galah/config/cache/
+      - ./config/config.yaml:/opt/galah/config/config.yaml
+      - ./config/cert/:/opt/galah/config/cert/
+      - ./log/:/opt/galah/log/
+
