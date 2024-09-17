@@ -1,9 +1,9 @@
 {
     "Headers": {
         "Content-Type": "text/html; charset=UTF-8",
-        "Server": "nginx/1.4.1", 
-        "X-Powered-By": "PHP/5.4.16", 
+        "Server": "nginx/1.18.0", 
+        "X-Powered-By": "PHP/7.4.3",
         "X-Content-Type-Options": "nosniff"
     },
-    "Body": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Welcome to nginx!</title>\n    <style>\n        body {\n            width: 35em;\n            margin: 0 auto;\n            font-family: Tahoma, Verdana, Arial, sans-serif;\n        }\n    </style>\n</head>\n<body>\n    <h1>Welcome to nginx!</h1>\n    <p>If you see this page, the nginx web server is successfully installed and\n    working. <strong>Further configuration is required.</strong></p>\n    <p><strong>Server Information:</strong></p>\n    <ul>\n        <li>Server: nginx/1.4.1</li>\n        <li>PHP: 5.4.16 (mod_php)</li>\n        <li>OS: Ubuntu 12.04 LTS</li>\n        <li><em>Last Security Patch: May 2015</em></li>\n    </ul>\n    <p>For online documentation and support please refer to\n    <a href=\"http://nginx.org/\">nginx.org</a>.<br/>\n    Commercial support is available at\n    <a href=\"http://nginx.com/\">nginx.com</a>.</p>\n    <p><em>Thank you for using nginx.</em></p>\n</body>\n</html>"
+    "Body": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Website Error</title>\n    <style>\n        body {\n            width: 35em;\n            margin: 0 auto;\n            font-family: Tahoma, Verdana, Arial, sans-serif;\n        }\n        .error {\n            color: red;\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n    <h1>Website Error</h1>\n    <p class=\"error\">PHP Fatal error:  Uncaught Error: Call to undefined function get_user_data() in /var/www/html/index.php on line 15</p>\n    <p><strong>Stack trace:</strong></p>\n    <pre>#0 {main} thrown in /var/www/html/index.php on line 15</pre>\n    <hr>\n    <p>If you are the administrator of this website, please check the server error log for details.</p>\n</body>\n</html>"
 }
