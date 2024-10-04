@@ -29,7 +29,7 @@ user_prompt: |
 ports:
   - port: 80
     protocol: HTTP
-  - port: 8888
+  - port: 8080
     protocol: HTTP
   - port: 443
     protocol: TLS
