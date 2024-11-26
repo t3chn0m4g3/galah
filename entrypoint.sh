@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env ash
 if ! [ -f "config/cert/key.pem" ]; then
 	openssl req \
 	      -nodes \
